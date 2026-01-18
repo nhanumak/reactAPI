@@ -8,3 +8,7 @@ obj/
 *.suo
 *.cache
 *.log
+CopilotIndices/
+v17/
+slnx.sqlite
+*.vsidx
