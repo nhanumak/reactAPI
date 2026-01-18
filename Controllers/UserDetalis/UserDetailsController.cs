@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using React_API.Interface;
+using React_API.Interface.Security;
 using React_API.Models;
 
 namespace React_API.Controllers.UserDetalis

@@ -1,8 +1,8 @@
-﻿using React_API.Interface;
+﻿using React_API.Interface.Security;
 using React_API.Models;
 using System.Data;
 
-namespace React_API.Repositories
+namespace React_API.Repositories.Security
 {
     public class UserDetailsRepository : IUserDetailsRepository
     {
