@@ -23,5 +23,13 @@ namespace React_API.Controllers.UserDetalis
             return Ok(result);
         }
 
+        [HttpGet]
+        [Route("api/GetUserDetails2/{id=0:int}")]
+        public IActionResult getUserInfoDetails(int? id = 0)
+        {
+            List<UserInfoData> result = userDetailsRepository.GetUserDetails(id);
+            return Ok(result);
+        }
+
     }
 }
